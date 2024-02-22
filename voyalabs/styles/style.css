@@ -1,0 +1,43 @@
+:root {
+  --dark: #0e0e0e;
+  --light: #ffffff;
+  --purple: #b58cf9;
+  --pruple-hover: #814abd;
+  --gold: #fff1a1;
+  --box1: #82ffbb;
+  --box2: #ffeaa3;
+  --box3: #7feefe;
+  --box4: #b58cf9;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+.text,
+.text * {
+  font-family: "IBM Plex Mono", monospace;
+}
+body {
+  background-color: var(--dark);
+  color: var(--light);
+  transition: background 0.5s ease-in-out;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
