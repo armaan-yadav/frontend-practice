@@ -2,7 +2,7 @@
   --dark: #0e0e0e;
   --light: #ffffff;
   --purple: #b58cf9;
-  --pruple-hover: #814abd;
+  --purple-hover: #814abd;
   --gold: #fff1a1;
   --box1: #82ffbb;
   --box2: #ffeaa3;
@@ -35,6 +35,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 button {

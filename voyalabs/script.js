@@ -23,12 +23,12 @@ window.addEventListener("mousemove", (e) => {
   circles.forEach((circle) => {
     circle.style.display = "block";
   });
-
+  //adding timeout of 500ms to each circle to disappear and make the svg visible on cursor not moving
   timer = setTimeout(() => {
     circles.forEach((circle) => {
       circle.style.display = "none";
       svg.style.visibility = "visible";
-      svg.style.block = "block";
+      svg.style.display = "block";
     });
   }, 500);
 });
